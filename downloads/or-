@@ -1,0 +1,329 @@
+Help on RegexFlag in module re object:
+
+class RReeggeexxFFllaagg(enum.IntFlag)
+ |  RegexFlag(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)
+ |  
+ |  An enumeration.
+ |  
+ |  Method resolution order:
+ |      RegexFlag
+ |      enum.IntFlag
+ |      builtins.int
+ |      enum.ReprEnum
+ |      enum.Flag
+ |      enum.Enum
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  ____aanndd____(self, other)
+ |  
+ |  ____ffoorrmmaatt____(self, format_spec, /)
+ |      Default object formatter.
+ |  
+ |  ____iinnvveerrtt____(self)
+ |  
+ |  ____nneeww____(cls, value)
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |  
+ |  ____oorr____(self, other)
+ |      Return self|value.
+ |  
+ |  ____rraanndd____ = __and__(self, other)
+ |  
+ |  ____rreepprr____ = global_flag_repr(self)
+ |      use module.flag_name instead of class.flag_name
+ |      
+ |      the module is the last module in case of a multi-module name
+ |  
+ |  ____rroorr____ = __or__(self, other)
+ |  
+ |  ____rrxxoorr____ = __xor__(self, other)
+ |  
+ |  ____ssttrr____(self, /)
+ |      Return str(self).
+ |  
+ |  ____xxoorr____(self, other)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  AASSCCIIII = re.ASCII
+ |  
+ |  DDEEBBUUGG = re.DEBUG
+ |  
+ |  DDOOTTAALLLL = re.DOTALL
+ |  
+ |  IIGGNNOORREECCAASSEE = re.IGNORECASE
+ |  
+ |  LLOOCCAALLEE = re.LOCALE
+ |  
+ |  MMUULLTTIILLIINNEE = re.MULTILINE
+ |  
+ |  TTEEMMPPLLAATTEE = re.TEMPLATE
+ |  
+ |  UUNNIICCOODDEE = re.UNICODE
+ |  
+ |  VVEERRBBOOSSEE = re.VERBOSE
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from builtins.int:
+ |  
+ |  ____aabbss____(self, /)
+ |      abs(self)
+ |  
+ |  ____aadddd____(self, value, /)
+ |      Return self+value.
+ |  
+ |  ____bbooooll____(self, /)
+ |      True if self else False
+ |  
+ |  ____cceeiill____(...)
+ |      Ceiling of an Integral returns itself.
+ |  
+ |  ____ddiivvmmoodd____(self, value, /)
+ |      Return divmod(self, value).
+ |  
+ |  ____eeqq____(self, value, /)
+ |      Return self==value.
+ |  
+ |  ____ffllooaatt____(self, /)
+ |      float(self)
+ |  
+ |  ____fflloooorr____(...)
+ |      Flooring an Integral returns itself.
+ |  
+ |  ____fflloooorrddiivv____(self, value, /)
+ |      Return self//value.
+ |  
+ |  ____ggee____(self, value, /)
+ |      Return self>=value.
+ |  
+ |  ____ggeettaattttrriibbuuttee____(self, name, /)
+ |      Return getattr(self, name).
+ |  
+ |  ____ggeettnneewwaarrggss____(self, /)
+ |  
+ |  ____ggtt____(self, value, /)
+ |      Return self>value.
+ |  
+ |  ____hhaasshh____(self, /)
+ |      Return hash(self).
+ |  
+ |  ____iinnddeexx____(self, /)
+ |      Return self converted to an integer, if self is suitable for use as an index into a list.
+ |  
+ |  ____iinntt____(self, /)
+ |      int(self)
+ |  
+ |  ____llee____(self, value, /)
+ |      Return self<=value.
+ |  
+ |  ____llsshhiifftt____(self, value, /)
+ |      Return self<<value.
+ |  
+ |  ____lltt____(self, value, /)
+ |      Return self<value.
+ |  
+ |  ____mmoodd____(self, value, /)
+ |      Return self%value.
+ |  
+ |  ____mmuull____(self, value, /)
+ |      Return self*value.
+ |  
+ |  ____nnee____(self, value, /)
+ |      Return self!=value.
+ |  
+ |  ____nneegg____(self, /)
+ |      -self
+ |  
+ |  ____ppooss____(self, /)
+ |      +self
+ |  
+ |  ____ppooww____(self, value, mod=None, /)
+ |      Return pow(self, value, mod).
+ |  
+ |  ____rraadddd____(self, value, /)
+ |      Return value+self.
+ |  
+ |  ____rrddiivvmmoodd____(self, value, /)
+ |      Return divmod(value, self).
+ |  
+ |  ____rrfflloooorrddiivv____(self, value, /)
+ |      Return value//self.
+ |  
+ |  ____rrllsshhiifftt____(self, value, /)
+ |      Return value<<self.
+ |  
+ |  ____rrmmoodd____(self, value, /)
+ |      Return value%self.
+ |  
+ |  ____rrmmuull____(self, value, /)
+ |      Return value*self.
+ |  
+ |  ____rroouunndd____(...)
+ |      Rounding an Integral returns itself.
+ |      
+ |      Rounding with an ndigits argument also returns an integer.
+ |  
+ |  ____rrppooww____(self, value, mod=None, /)
+ |      Return pow(value, self, mod).
+ |  
+ |  ____rrrrsshhiifftt____(self, value, /)
+ |      Return value>>self.
+ |  
+ |  ____rrsshhiifftt____(self, value, /)
+ |      Return self>>value.
+ |  
+ |  ____rrssuubb____(self, value, /)
+ |      Return value-self.
+ |  
+ |  ____rrttrruueeddiivv____(self, value, /)
+ |      Return value/self.
+ |  
+ |  ____ssiizzeeooff____(self, /)
+ |      Returns size in memory, in bytes.
+ |  
+ |  ____ssuubb____(self, value, /)
+ |      Return self-value.
+ |  
+ |  ____ttrruueeddiivv____(self, value, /)
+ |      Return self/value.
+ |  
+ |  ____ttrruunncc____(...)
+ |      Truncating an Integral returns itself.
+ |  
+ |  aass__iinntteeggeerr__rraattiioo(self, /)
+ |      Return integer ratio.
+ |      
+ |      Return a pair of integers, whose ratio is exactly equal to the original int
+ |      and with a positive denominator.
+ |      
+ |      >>> (10).as_integer_ratio()
+ |      (10, 1)
+ |      >>> (-10).as_integer_ratio()
+ |      (-10, 1)
+ |      >>> (0).as_integer_ratio()
+ |      (0, 1)
+ |  
+ |  bbiitt__ccoouunntt(self, /)
+ |      Number of ones in the binary representation of the absolute value of self.
+ |      
+ |      Also known as the population count.
+ |      
+ |      >>> bin(13)
+ |      '0b1101'
+ |      >>> (13).bit_count()
+ |      3
+ |  
+ |  bbiitt__lleennggtthh(self, /)
+ |      Number of bits necessary to represent self in binary.
+ |      
+ |      >>> bin(37)
+ |      '0b100101'
+ |      >>> (37).bit_length()
+ |      6
+ |  
+ |  ccoonnjjuuggaattee(...)
+ |      Returns self, the complex conjugate of any int.
+ |  
+ |  ttoo__bbyytteess(self, /, length=1, byteorder='big', *, signed=False)
+ |      Return an array of bytes representing an integer.
+ |      
+ |      length
+ |        Length of bytes object to use.  An OverflowError is raised if the
+ |        integer is not representable with the given number of bytes.  Default
+ |        is length 1.
+ |      byteorder
+ |        The byte order used to represent the integer.  If byteorder is 'big',
+ |        the most significant byte is at the beginning of the byte array.  If
+ |        byteorder is 'little', the most significant byte is at the end of the
+ |        byte array.  To request the native byte order of the host system, use
+ |        `sys.byteorder' as the byte order value.  Default is to use 'big'.
+ |      signed
+ |        Determines whether two's complement is used to represent the integer.
+ |        If signed is False and a negative integer is given, an OverflowError
+ |        is raised.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Class methods inherited from builtins.int:
+ |  
+ |  ffrroomm__bbyytteess(bytes, byteorder='big', *, signed=False) from enum.EnumType
+ |      Return the integer represented by the given array of bytes.
+ |      
+ |      bytes
+ |        Holds the array of bytes to convert.  The argument must either
+ |        support the buffer protocol or be an iterable object producing bytes.
+ |        Bytes and bytearray are examples of built-in objects that support the
+ |        buffer protocol.
+ |      byteorder
+ |        The byte order used to represent the integer.  If byteorder is 'big',
+ |        the most significant byte is at the beginning of the byte array.  If
+ |        byteorder is 'little', the most significant byte is at the end of the
+ |        byte array.  To request the native byte order of the host system, use
+ |        `sys.byteorder' as the byte order value.  Default is to use 'big'.
+ |      signed
+ |        Indicates whether two's complement is used to represent the integer.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from builtins.int:
+ |  
+ |  ddeennoommiinnaattoorr
+ |      the denominator of a rational number in lowest terms
+ |  
+ |  iimmaagg
+ |      the imaginary part of a complex number
+ |  
+ |  nnuummeerraattoorr
+ |      the numerator of a rational number in lowest terms
+ |  
+ |  rreeaall
+ |      the real part of a complex number
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from enum.Flag:
+ |  
+ |  ____ccoonnttaaiinnss____(self, other)
+ |      Returns True if self has at least the same flags set as other.
+ |  
+ |  ____iitteerr____(self)
+ |      Returns flags in definition order.
+ |  
+ |  ____lleenn____(self)
+ |      Return the number of members (no aliases)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from enum.Enum:
+ |  
+ |  ____ddiirr____(self)
+ |      Returns all members and all public methods
+ |  
+ |  ____iinniitt____(self, *args, **kwds)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  ____rreedduuccee__eexx____(self, proto)
+ |      Helper for pickle.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from enum.Enum:
+ |  
+ |  nnaammee
+ |      The name of the Enum member.
+ |  
+ |  vvaalluuee
+ |      The value of the Enum member.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from enum.EnumType:
+ |  
+ |  ____ggeettiitteemm____(name) from enum.EnumType
+ |      Return the member matching `name`.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Readonly properties inherited from enum.EnumType:
+ |  
+ |  ____mmeemmbbeerrss____
+ |      Returns a mapping of member name->value.
+ |      
+ |      This mapping lists all enum members, including aliases. Note that this
+ |      is a read-only view of the internal mapping.
